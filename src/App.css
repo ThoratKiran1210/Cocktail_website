@@ -1,0 +1,26 @@
+.about-page-container {
+    background: url('https://www.bing.com/th/id/OIP.uU1PM21s27yTMr0VAn_TvAHaDN?w=350&h=151&c=7&r=0&o=5&dpr=1.1&pid=1.7') no-repeat;
+    background-size: cover;
+    background-position: center;
+  color: white;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  display: flex;
+  align-items: center;
+}
+.about-text {
+    font-size: larger;
+    color:red;
+}
+.marquee-text {
+    animation: marquee 5s linear infinite;
+    white-space: nowrap;
+
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
